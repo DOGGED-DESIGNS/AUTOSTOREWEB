@@ -1,0 +1,13 @@
+.nav {
+  @apply sticky z-[1000] h-14  top-0 w-full border-b border-gray-200 bg-white/75
+    backdrop-blur-lg transition-all;
+  &__max {
+  }
+  &__linkcont {
+    @apply flex h-14 items-center justify-between  
+        border-b border-zinc-200;
+  }
+  &__link {
+    @apply flex z-40 font-semibold;
+  }
+}

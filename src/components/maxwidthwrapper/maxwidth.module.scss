@@ -1,0 +1,5 @@
+@import "../app/styles/mixings/mixing";
+
+.first {
+  @apply h-full  mx-auto w-full max-w-screen-xl px-2.5 md:px-20;
+}
